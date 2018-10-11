@@ -1,0 +1,19 @@
+eclipse+SVN文件只显示版本号，不显示时间和作者解决办法
+2017年05月17日 16:29:25 痴情的稀饭 阅读数：162更多
+个人分类： IDE
+版权声明：本文为博主原创文章，未经博主允许不得转载。 https://blog.csdn.net/xingxiupaioxue/article/details/72403866
+
+在开发中，如果eclipse项目文件不显示时间和作者，不是开发人员想看到的，大家最最关心的是某个文件最后版本是谁提交的，啥时候提交的。
+
+一.在项目中可能出现图中情况，不是我们想要的，只有版本号
+
+二，以下为设置出提交时间和版本号的方法
+
+1.打开window下的preferences
+
+2.选择SVN下的Label Decorations下的Text Decorations,打开file配置
+
+3.去掉name和revision的勾选，勾选上date和author,然后一路ok,刷新一下你的项目，如果还没出来，还剩最后一步，往下看
+
+4.勾选上你的SVN，然后OK
+
